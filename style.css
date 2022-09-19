@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap'); */
+body {
+  background: linear-gradient(236.85deg, #46C6AC 27.26%, #F8FFAE 96.03%);
+  font-family: 'Quicksand', sans-serif;
+
+}
+.container {
+background: #ECF4FF;
+  margin: 70px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  color: #1C1C1C;
+  padding: 64px
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+  
+  
+}
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 16px;
+  }
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self:flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #ECF4FF;
+   border-radius: 100px;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(230.65deg, #46C6AC 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 24px
+}
+.projetos-item {
+   font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-color: black;
+  line-height: 45px;
+}
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+.dark {
+  background: linear-gradient(230.65deg, #005bff 32.49%, #097930 83.19%);
+}
+.dark .container{
+  background: #333439;
+  color: #f6f6f6;
+}
+.dark .projetos {
+  color: #1c1c1c;
+}
+.dark .projetos {
+  background: linear-gradient(230.65deg, #005bff 32.49%, #097930 83.19%);
+  font-color: b
+}
